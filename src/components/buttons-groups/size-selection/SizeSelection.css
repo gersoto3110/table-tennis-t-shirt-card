@@ -1,0 +1,9 @@
+.size-selection {
+  grid-area: sizes;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0.7rem;
+  gap: 1rem;
+}

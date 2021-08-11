@@ -1,0 +1,17 @@
+.size-picker {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  
+  cursor: pointer;
+  background-color: var(--bg-size-picker);
+  color: var(--text-color-size-picker);
+  
+  transition: var(--time-transition);
+}

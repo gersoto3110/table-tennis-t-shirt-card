@@ -1,0 +1,22 @@
+.card {
+  margin: 2rem 0;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .card {
+    margin-top: 1.5rem;
+    width: 90vw;
+    flex-direction: row;
+  }
+}

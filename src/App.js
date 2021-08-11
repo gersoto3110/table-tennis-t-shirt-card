@@ -1,7 +1,15 @@
+import { Card, ProductImage, ProductInfo } from "./components";
+import { ColorPickerProvider } from "./context";
+
 function App() {
   return (
     <main>
-      hola
+      <ColorPickerProvider>
+        <Card>
+          <ProductImage />
+          <ProductInfo />
+        </Card>
+      </ColorPickerProvider>
     </main>
   );
 }

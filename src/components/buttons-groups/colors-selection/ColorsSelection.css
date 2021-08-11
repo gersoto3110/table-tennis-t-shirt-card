@@ -1,0 +1,9 @@
+.colors-selection {
+  grid-area: colors;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 0.7rem;
+}

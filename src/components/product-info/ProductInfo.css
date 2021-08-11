@@ -1,0 +1,89 @@
+.product-info {
+  width: 100%;
+  background-color: var(--white-color);
+  z-index: 1;
+  padding: 35px 40px;
+  box-shadow: 
+    15px 0 35px var(--color-alpha-shadown),
+    0 -15px 35px var(--color-alpha-shadown),
+    0 15px 35px var(--color-alpha-shadown);
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "title title title title tag"
+    "subtitle subtitle subtitle subtitle subtitle"
+    "t-desc t-desc t-desc t-desc t-desc"
+    "desc desc desc desc desc"
+    "t-color t-color t-color t-color t-color"
+    "colors colors colors colors colors"
+    "t-size t-size t-size t-size t-size"
+    "sizes sizes sizes sizes sizes";
+  gap: 0.7rem 0;
+}
+
+.product-info .subtitle,
+.product-info .description,
+.product-info .colors-selection,
+.product-info .size-selection {
+  border-bottom: 1px solid var(--gray-color);
+  padding-bottom: 0.7rem;
+}
+
+.product-info h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.product-info .title {
+  grid-area: title;
+  font-size: 2rem;
+}
+
+.product-info .tag {
+  grid-area: tag;
+
+  text-transform: uppercase;
+  color: var(--white-color);
+
+  padding: 0 .8rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: .4rem;
+  background-color: var(--tag-bg);
+  
+  transition: var(--time-transition);
+}
+
+.product-info .subtitle {
+  grid-area: subtitle;
+  
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.17rem;
+}
+
+.product-info .title-description {
+  grid-area: t-desc;
+}
+
+.product-info .description {
+  grid-area: desc;
+  padding-left: 0.7rem;
+}
+
+.product-info .title-color {
+  grid-area: t-color;
+}
+
+.product-info .title-size {
+  grid-area: t-size;
+}
+
+@media screen and (min-width: 1100px) {
+  .product-info {
+    width: 50%;
+  }
+}
