@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/table-tennis-t-shirt-card/static/css/main.870bf83d.chunk.css",
+    "main.js": "/table-tennis-t-shirt-card/static/js/main.2c3945d3.chunk.js",
+    "main.js.map": "/table-tennis-t-shirt-card/static/js/main.2c3945d3.chunk.js.map",
+    "runtime-main.js": "/table-tennis-t-shirt-card/static/js/runtime-main.a60d4576.js",
+    "runtime-main.js.map": "/table-tennis-t-shirt-card/static/js/runtime-main.a60d4576.js.map",
+    "static/js/2.9b125dd4.chunk.js": "/table-tennis-t-shirt-card/static/js/2.9b125dd4.chunk.js",
+    "static/js/2.9b125dd4.chunk.js.map": "/table-tennis-t-shirt-card/static/js/2.9b125dd4.chunk.js.map",
+    "index.html": "/table-tennis-t-shirt-card/index.html",
+    "static/css/main.870bf83d.chunk.css.map": "/table-tennis-t-shirt-card/static/css/main.870bf83d.chunk.css.map",
+    "static/js/2.9b125dd4.chunk.js.LICENSE.txt": "/table-tennis-t-shirt-card/static/js/2.9b125dd4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a60d4576.js",
+    "static/js/2.9b125dd4.chunk.js",
+    "static/css/main.870bf83d.chunk.css",
+    "static/js/main.2c3945d3.chunk.js"
+  ]
+}
